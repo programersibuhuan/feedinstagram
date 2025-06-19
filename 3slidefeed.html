@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Berita + Instagram Feed</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #1e88e5;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .news-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .news-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .news-content {
+            padding: 1rem;
+        }
+
+        .news-title {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            color: #333;
+        }
+
+        .news-summary {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .insta-embed {
+            padding: 1rem;
+        }
+
+        @media (max-width: 600px) {
+            .news-title {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Berita Terkini & Instagram Reels</h1>
+    </header>
+
+    <div class="container">
+
+        <!-- Berita 1 - Gambar Biasa -->
+        <div class="news-card">
+            <div class="insta-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-sCmsYoVkY/"
+                    data-instgrm-version="14"></blockquote>
+            </div>
+            <div class="news-content">
+                <div class="news-title">Judul Berita Kedua</div>
+                <div class="news-summary">Berita ini menampilkan video dari Instagram sebagai bagian isi beritanya.
+                </div>
+            </div>
+        </div>
+
+        <!-- Berita 2 - Embed Instagram Reel -->
+        <div class="news-card">
+            <div class="insta-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-sCmsYoVkY/"
+                    data-instgrm-version="14"></blockquote>
+            </div>
+            <div class="news-content">
+                <div class="news-title">Judul Berita Kedua</div>
+                <div class="news-summary">Berita ini menampilkan video dari Instagram sebagai bagian isi beritanya.
+                </div>
+            </div>
+        </div>
+
+        <!-- Berita 3 - Embed Instagram Reel -->
+        <div class="news-card">
+            <div class="insta-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-upLVsvO_l/"
+                    data-instgrm-version="14"></blockquote>
+            </div>
+            <div class="news-content">
+                <div class="news-title">Judul Berita Ketiga</div>
+                <div class="news-summary">Isi berita ketiga juga menampilkan konten Reel langsung dari akun publik.
+                </div>
+            </div>
+        </div>
+
+        <!-- Berita 4 - Gambar -->
+        <div class="news-card">
+            <div class="insta-embed">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-upLVsvO_l/"
+                    data-instgrm-version="14"></blockquote>
+            </div>
+            <div class="news-content">
+                <div class="news-title">Judul Berita Ketiga</div>
+                <div class="news-summary">Isi berita ketiga juga menampilkan konten Reel langsung dari akun publik.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Instagram Embed Script -->
+    <script async src="//www.instagram.com/embed.js"></script>
+
+</body>
+
+</html>

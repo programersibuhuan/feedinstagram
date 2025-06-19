@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram Reels Embed</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+        }
+
+        .reel-container {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Instagram Reels Preview</h1>
+
+    <div class="reel-container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-sCmsYoVkY/"
+            data-instgrm-version="14"></blockquote>
+    </div>
+
+    <div class="reel-container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-upLVsvO_l/"
+            data-instgrm-version="14"></blockquote>
+    </div>
+
+    <div class="reel-container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-y6AXThTbo/"
+            data-instgrm-version="14"></blockquote>
+    </div>
+
+    <div class="reel-container">
+        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C-2xQYLKut9/"
+            data-instgrm-version="14"></blockquote>
+    </div>
+
+    <!-- Instagram embed script -->
+    <script async src="//www.instagram.com/embed.js"></script>
+
+</body>
+
+</html>
